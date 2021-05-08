@@ -8,7 +8,16 @@ body {font-family: "Lato", sans-serif;}
   width: 30%;
   height: 576px;
 }
+.color-cambio{
+  color:black;
 
+}
+.espacio-superior{
+  padding-top:45px;
+}
+.sangria{
+  padding-left:25px;
+}
 /* Style the buttons inside the tab */
 .tab button {
   display: block;

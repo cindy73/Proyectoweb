@@ -1,0 +1,126 @@
+* {box-sizing: border-box}
+body {font-family: "Lato", sans-serif;}
+
+/* Style the tab */
+.tab {
+  float: left;
+  background-color: #48494b;
+  width: 30%;
+  height: 576px;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  display: block;
+  background-color: inherit;
+  color: rgb(255, 255, 255);
+  padding: 22px 16px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: rgb(209, 223, 16);
+}
+
+/* Create an active/current "tab button" class */
+.tab button.active {
+  background-color: rgb(209, 223, 16);
+}
+
+/* Style the tab content */
+.tabcontent {
+  float: left;
+  padding: 0px 12px;
+  border: 1px solid #ccc;
+  width: 70%;
+  border-left: none;
+  height: 576px;
+}
+
+@import url(http://weloveiconfonts.com/api/?family=brandico);
+
+/* brandico */
+[class*="brandico-"]:before {
+  font-family: "brandico", sans-serif;
+}
+
+ul.social-buttons {
+  margin-top: 5px;
+}
+
+ul.social-buttons li {
+  display: inline-block;
+ 
+}
+
+ul.social-buttons li a {
+  width: 60px;
+  height: 60px;
+  display: block;
+  border-radius: 50px;
+  text-decoration: none;
+  font-size: 2px;
+  line-height: 60px;
+  color: white;
+}
+
+ul.social-buttons li a.brandico-twitter-bird {
+  background-color: #4099ff;
+}
+
+ul.social-buttons li a.brandico-facebook {
+  background-color: #3b5998;
+}
+
+ul.social-buttons li a.brandico-instagram {
+  background-color: #802783;
+}
+
+ul.social-buttons li a.brandico-vimeo {
+  background-color: #4ebbff;
+}
+
+ul.social-buttons li a.brandico-linkedin {
+  background-color: #0e76a8;
+}
+
+/*Demo 1*/
+ul#demo1 li a {
+  transition: transform 0.2s linear;
+}
+
+ul#demo1 li:hover a {
+  transform: translateY(-10px);
+}
+
+/*Demo 2*/
+ul#demo2 li a {
+  transition: transform 0.5s ease-in-out;
+}
+
+ul#demo2 li:hover a {
+  transform: rotateX(180deg) rotateY(180deg) rotateZ(180deg);
+}
+
+/*Demo 3*/
+ul#demo3 li a {
+  transition: transform 0.2s ease-in-out 0;
+}
+
+ul#demo3 li:hover a {
+  transform: rotateZ(27deg) scale(1.1);
+}
+ol, ul{
+  padding-left: 60px !important;
+}
+
+.color-letra{
+  color: white;
+}

@@ -10,6 +10,10 @@ header.encabezado{
 	background: linear-gradient(51deg, rgba(152,178,232,0.4713235636051295) 0%, rgba(235,213,213,1) 50%, rgba(134,83,123,0.7878501742493873) 100%);
 	height: 660px;
 }
+.separador{
+  padding-left: 10px;
+  padding-right: 10px;
+}
 
 .logo-img{
 	margin-left: 25px;
@@ -76,7 +80,7 @@ section.conte-general{
 
 section.conte-general:hover{
 	border: 5px solid #782fb5;
-	background-image: url(IMAGES/DeveloperWeb.png);
+	background-image: url(IMAGES/a.jpg);
 	background-size: 35%;
 	border-radius: 25px;
 	color: #782fb5;
